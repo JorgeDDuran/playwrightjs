@@ -1,0 +1,31 @@
+{
+  "name": "playwrightjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorgeDDuran/playwrightjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JorgeDDuran/playwrightjs/issues"
+  },
+  "homepage": "https://github.com/JorgeDDuran/playwrightjs#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.50.1",
+    "2captcha": "^3.0.5-2",
+    "cucumber-html-reporter": "^6.0.0",
+    "playwright": "^1.50.1"
+  },
+  "devDependencies": {
+    "expect": "^29.7.0"
+  }
+}

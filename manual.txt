@@ -1,0 +1,17 @@
+Manual de Instalación y Ejecución de Tests
+
+
+
+Instalación de Dependencias
+
+Instalar las dependencias necesarias ejecutando:
+
+npm install
+
+Ejecución de los Tests
+
+Para ejecutar las pruebas automáticas, usa el siguiente comando:
+
+npx cucumber-js
+
+Esto iniciará las pruebas y mostrará los resultados en la terminal y en la carpeta reports.
