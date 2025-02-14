@@ -13,7 +13,7 @@ class CustomWorld {
       this.browser = await chromium.launch({ headless: false }); // Cambia a true si no necesitas ver el navegador
     }
     this.context = await this.browser.newContext();
-    this.page = await this.context.newPage();
+      this.page = await this.context.newPage();
   }
 
   async closeBrowser() {
