@@ -1,5 +1,6 @@
-# Ignorar la carpeta de reportes de Cucumber
-reports/
+# Ignorar los archivos de reportes de Cucumber
+reports/*
+!reports/.gitkeep
 
 # Ignorar la carpeta de módulos de Node.js
 node_modules/
